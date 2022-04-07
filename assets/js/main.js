@@ -7,6 +7,7 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 
 
 // JQUERY
+$('.showPointer').hide();
 
 $(document).ready(function () {
     $('.showPointer').dblclick();
